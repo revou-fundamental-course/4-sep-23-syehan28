@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rectangle Calculator</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <header>
+            <h1>Kalkulator Persegi</h1>
+      </header>
+      <main>
+            <!--Menampilkan persegi-->
+            <section class="persegiSection">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/800px-Square_-_black_simple.svg.png">
+                  <article>Rumus Luas Persegi : </article>
+                  <br>
+                  <b>L = S x S</b>
+                  <p>
+                        Dimana :
+                        <ul type="none">
+                            <li>L = Luas Persegi</li>
+                            <li>S = Sisi Persegi</li>  
+                        </ul>
+                  </p>
+            </section>
+            <!--Inputan dan keluaran luas-->
+            <section class="luasInputSection">
+                  <label>Masukan Sisi Persegi</label>
+                  <input type="number" id="inputLuasField" placeholder="Masukan Nilai Sisi">
+            </section>
+            <section class="luasButtonSection">
+                  <button id="countLuasButton">Hitung</button>
+                  <button id="resetLuasButton">Reset</button>
+            </section>
+            <section class="hasilLuasSection">
+                  <label>Hasil luas persegi = <span id="hasilLuas"></span></label>
+            </section>
+      </main>
+      <script src="js/index.js"></script>
+</body>
+</html>
